@@ -17,17 +17,35 @@ section{
 	text-transform: uppercase;
 }
 
+h6.uppercase{
+	padding-bottom: 5px;
+}
+
 footer.page-footer{
 	padding-top: 0 !important;
 }
 
 .d-width{
-    width: 3.5%;
+    width: 4.5%;
     height: 1px;
     margin: auto;
     background-color: #757575;
 }
 
 .section{
-	padding: 3rem 0;
+	padding: 2.8rem 0;
+}
+
+.contact-info{
+	padding: 0 3rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-info{
+  	padding: 3rem 0.8rem !important;
+  }
+
+  .d-width{
+  	width: 10%;
+  }
 }
