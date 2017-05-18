@@ -1,3 +1,33 @@
 body, html {
 	background-color: #EDEDED !important;
+	font-family: "Roboto", Helvetica, Sans-Serif;
 }
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.h6-bold{
+	font-weight: bold;
+}
+
+.d-width{
+	width: 50px;
+	height: 2px;
+	margin:auto;	
+}
+
+.bg-header{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	height: 650px;
+}
+
+.h2-name{
+	font-weight: bold;
+}
+
