@@ -1,16 +1,16 @@
 body, html {
 	background-color: #EDEDED !important;
-	height: 100%;
 }
 
 body{
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	font-family: "Roboto", Helvetica, Sans-Serif;
 }
 
 section{
-	flex:1 0 auto;
+	flex: 1 0 auto;
 }
 
 .uppercase{
@@ -19,10 +19,6 @@ section{
 
 h6.uppercase{
 	padding-bottom: 5px;
-}
-
-footer.page-footer{
-	padding-top: 0 !important;
 }
 
 .d-width{
@@ -38,6 +34,23 @@ footer.page-footer{
 
 .contact-info{
 	padding: 0 3rem !important;
+}
+
+.h6-bold{
+	font-weight: bold;
+}
+
+.bg-header{
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	height: 650px;
+}
+
+footer.page-footer{
+	padding-top: 0 !important;
+	background-color: #546e7a !important;
 }
 
 @media only screen and (max-width: 600px) {
