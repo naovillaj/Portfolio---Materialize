@@ -1,20 +1,84 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" href="assets/css/main.css">
-
-      <!--Let browser know website is optimized for mobile-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="assets/css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+
+      <section class="section contact valign-wrapper">
+        <div class="container">
+            <div class="center-align section">
+              <h5 class="uppercase">Contact</h5>
+              <h6 class="uppercase">Get in touch with me</h6>              
+              <div class="divider d-width center"></div>
+            </div>
+          <div class="row">
+            <form class="col s12 m6">
+              <div class="row">
+
+                <div class="input-field col s6">
+                  <input type="text" id="first-name" class="validate" required="required">
+                  <label for="first-name">First Name</label>
+                </div>
+
+                <div class="input-field col s6">
+                  <input type="text" id="last-name" class="validate" required="required">
+                  <label for="last-name">Last Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 m12">
+                  <input type="email" id="email" class="validate" required="required">
+                  <label for="email">E-Mail</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 m12">
+                  <textarea id="message" class="materialize-textarea" placeholder="Your Message" required="required"></textarea>
+                  <label for="message"></label>
+                </div>
+              </div>
+
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+            </form>
+            
+            <section>
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6">
+                    <p class="uppercase">Address</p>
+                    <p>Nr. 6, 21 Awesome Street, London, UK</p>
+                    <p class="uppercase">Phone Number</p>
+                    <p>+91 9912776151</p>
+                    <p class="upp ercase">Website</p>
+                    <p>qnimate.com</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+          </div>
+        </div>
+        
+      </section>
+
+      <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+              &copy; 2014 Copyright Text
+              <a href="#!" class="text-lighten-4 right">minombre@hotmail.com</a>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/materialize.js"></script>
       <script type="text/javascript" src="assets/js/main.js"></script>
     </body>
   </html>

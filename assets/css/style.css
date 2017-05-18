@@ -1,3 +1,33 @@
 body, html {
 	background-color: #EDEDED !important;
+	height: 100%;
+}
+
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+section{
+	flex:1 0 auto;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+footer.page-footer{
+	padding-top: 0 !important;
+}
+
+.d-width{
+    width: 3.5%;
+    height: 1px;
+    margin: auto;
+    background-color: #757575;
+}
+
+.section{
+	padding: 3rem 0;
 }
