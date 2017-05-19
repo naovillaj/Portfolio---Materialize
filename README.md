@@ -21,10 +21,10 @@ Se utilizó el siguiente framework: Materialize.
 Esta es la versión final de la página web del <a href="https://naovillaj.github.io/Portfolio---Materialize/">Portfolio</a>
 
 Versión Desktop: 
-<img src="assets/img/desktop.png">
+<br><img src="assets/img/desktop.png">
 
 Versión Mobile:
-<img src="assets/img/mobile.png">
+<br><center><img src="assets/img/mobile.png"></center>
 
 ## Desarrollado con
 
